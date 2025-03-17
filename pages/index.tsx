@@ -31,7 +31,7 @@ export default function Home() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover"
         >
-          <source src="https://player.vimeo.com/external/435674703.sd.mp4?s=01ad1ba21dc72c1d34728e1b77983805b34d0d78&profile_id=164&oauth2_token_id=57447761" type="video/mp4" />
+          <source src="/zvid.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/60" />
         
@@ -122,7 +122,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div className="relative h-[400px]" data-aos="fade-right">
               <Image
-                src="https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?auto=format&fit=crop&q=80"
+                src="/founder.jpg"
                 alt="Founder"
                 fill
                 className="object-cover rounded-lg shadow-2xl"
